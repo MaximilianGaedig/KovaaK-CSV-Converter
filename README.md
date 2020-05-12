@@ -2,7 +2,7 @@
 
 
 
-[This tracker](https://fat-dash.github.io/) isn't working for 2.0 versions and above and isn't maintained by the dev. So I made this program using python that changes the format of the CSV files.
+[This tracker](https://fat-dash.github.io/next/) isn't working for 2.0 versions and above and isn't maintained by the dev. So I made this program using python that changes the format of the CSV files.
 
 Thanks to [sidtheone](https://github.com/sidtheone/fat-dash-fix), he saved me some work.
 
