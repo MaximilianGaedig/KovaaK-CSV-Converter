@@ -12,6 +12,7 @@ if result == 6:
             with open(file, 'r+') as csv:
                 content = csv.read()
                 content_new = re.sub('(..:..:..)(.)(..)', r'\1:\3', content, flags=re.M)
+                csv.seek(0, 0)
                 csv.write(content_new)
     ctypes.windll.user32.MessageBoxW(0, "Converted all CSVs to the new Format", "KovaaK CSV Converter", 64)
 else:
